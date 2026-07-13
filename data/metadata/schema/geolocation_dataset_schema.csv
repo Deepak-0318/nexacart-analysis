@@ -1,0 +1,6 @@
+dataset_name,column_name,pandas_dtype,nullable,missing_count,missing_percentage,unique_count,unique_percentage,duplicate_count,memory_usage_mb,sample_values
+geolocation_dataset,geolocation_zip_code_prefix,int64,False,0,0.0,19015,1.9,981148,7.63,"[1037, 1046, 1046, 1041, 1035]"
+geolocation_dataset,geolocation_lat,float64,False,0,0.0,717372,71.73,282791,7.63,"[-23.54562128115268, -23.546081127035535, -23.54612896641469, -23.5443921648681, -23.541577961711493]"
+geolocation_dataset,geolocation_lng,float64,False,0,0.0,717615,71.75,282548,7.63,"[-46.63929204800168, -46.64482029837157, -46.64295148361138, -46.63949930627844, -46.64160722329613]"
+geolocation_dataset,geolocation_city,str,False,0,0.0,8011,0.8,992152,58.73,"['sao paulo', 'sao paulo', 'sao paulo', 'sao paulo', 'sao paulo']"
+geolocation_dataset,geolocation_state,str,False,0,0.0,27,0.0,1000136,48.65,"['SP', 'SP', 'SP', 'SP', 'SP']"

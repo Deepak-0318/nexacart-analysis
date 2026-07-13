@@ -1,0 +1,5 @@
+dataset_name,column_name,pandas_dtype,nullable,missing_count,missing_percentage,unique_count,unique_percentage,duplicate_count,memory_usage_mb,sample_values
+sellers_dataset,seller_id,str,False,0,0.0,3095,100.0,0,0.24,"['3442f8959a84dea7ee197c632cb2df15', 'd1b65fc7debc3361ea86b5f14c68d2e2', 'ce3ad9de960102d0677a81f5d0bb7b2d', 'c0f3eea2e14555b6faeea3dd58c1b1c3', '51a04a8a6bdcb23deccc82b0b80742cf']"
+sellers_dataset,seller_zip_code_prefix,int64,False,0,0.0,2246,72.57,849,0.02,"[13023, 13844, 20031, 4195, 12914]"
+sellers_dataset,seller_city,str,False,0,0.0,611,19.74,2484,0.17,"['campinas', 'mogi guacu', 'rio de janeiro', 'sao paulo', 'braganca paulista']"
+sellers_dataset,seller_state,str,False,0,0.0,23,0.74,3072,0.15,"['SP', 'SP', 'RJ', 'SP', 'SP']"

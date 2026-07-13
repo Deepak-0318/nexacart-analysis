@@ -12,4 +12,4 @@ Phase 10 — Recommendation Engine
 Phase 11 — Semantic Model	
 Phase 12 — Power BI Dashboard	
 Phase 13 — Documentation	
-Phase 14 — Portfolio Assets	
+Phase 14 — Portfolio Assets

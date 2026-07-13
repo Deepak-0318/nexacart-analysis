@@ -1,0 +1,6 @@
+dataset_name,column_name,pandas_dtype,nullable,missing_count,missing_percentage,unique_count,unique_percentage,duplicate_count,memory_usage_mb,sample_values
+order_reviews_dataset,review_id,str,False,0,0.0,98410,99.18,814,7.66,"['7bc2406110b926393aa56f80a40eba40', '80e641a11e56f04c1ad469d5645fdfde', '228ce5500dc1d8e020d8d1322874b6f0', 'e64fb393e7b32834bb789ff8bb30750e', 'f7c4243c7fe1938f181bec41a392bdeb']"
+order_reviews_dataset,order_id,str,False,0,0.0,98673,99.44,551,7.66,"['73fc7af87114b39712e6da79b0a377eb', 'a548910a1c6147796b98fdf73dbeba33', 'f9e4b658b201a9f2ecdecbb34bed034b', '658677c97b385a9be170737859d3511b', '8e6bfb81e283fa7e4f11123a3fb894f1']"
+order_reviews_dataset,review_score,int64,False,0,0.0,5,0.01,99219,0.76,"[4, 5, 5, 5, 5]"
+order_reviews_dataset,review_creation_date,datetime64[us],False,0,0.0,636,0.64,98588,0.76,"[Timestamp('2018-01-18 00:00:00'), Timestamp('2018-03-10 00:00:00'), Timestamp('2018-02-17 00:00:00'), Timestamp('2017-04-21 00:00:00'), Timestamp('2018-03-01 00:00:00')]"
+order_reviews_dataset,review_answer_timestamp,datetime64[us],False,0,0.0,98248,99.02,976,0.76,"[Timestamp('2018-01-18 21:46:59'), Timestamp('2018-03-11 03:05:13'), Timestamp('2018-02-18 14:36:24'), Timestamp('2017-04-21 22:02:06'), Timestamp('2018-03-02 10:26:53')]"

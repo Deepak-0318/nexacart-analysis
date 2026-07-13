@@ -1,0 +1,10 @@
+dataset_name,column_name,pandas_dtype,nullable,missing_count,missing_percentage,unique_count,unique_percentage,duplicate_count,memory_usage_mb,sample_values
+products_dataset,product_id,str,False,0,0.0,32951,100.0,0,2.55,"['1e9e8ef04dbcff4541ed26657ea517e5', '3aa071139cb16b67ca9e5dea641aaa2f', '96bd76ec8810374ed1b65e291975717f', 'cef67bcfe19066a932b7673e239eb23d', '9dc1a7de274444849c219cff195d0b71']"
+products_dataset,product_category_name,str,True,610,1.85,73,0.22,32878,1.99,"['perfumaria', 'artes', 'esporte_lazer', 'bebes', 'utilidades_domesticas']"
+products_dataset,product_name_lenght,float64,True,610,1.85,66,0.2,32885,0.25,"[40.0, 44.0, 46.0, 27.0, 37.0]"
+products_dataset,product_description_lenght,float64,True,610,1.85,2960,8.98,29991,0.25,"[287.0, 276.0, 250.0, 261.0, 402.0]"
+products_dataset,product_photos_qty,float64,True,610,1.85,19,0.06,32932,0.25,"[1.0, 1.0, 1.0, 1.0, 4.0]"
+products_dataset,product_weight_g,float64,True,2,0.01,2204,6.69,30747,0.25,"[225.0, 1000.0, 154.0, 371.0, 625.0]"
+products_dataset,product_length_cm,float64,True,2,0.01,99,0.3,32852,0.25,"[16.0, 30.0, 18.0, 26.0, 20.0]"
+products_dataset,product_height_cm,float64,True,2,0.01,102,0.31,32849,0.25,"[10.0, 18.0, 9.0, 4.0, 17.0]"
+products_dataset,product_width_cm,float64,True,2,0.01,95,0.29,32856,0.25,"[14.0, 20.0, 15.0, 26.0, 13.0]"

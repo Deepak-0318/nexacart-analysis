@@ -1,0 +1,6 @@
+dataset_name,column_name,pandas_dtype,nullable,missing_count,missing_percentage,unique_count,unique_percentage,duplicate_count,memory_usage_mb,sample_values
+order_payments_dataset,order_id,str,False,0,0.0,99440,95.72,4446,8.03,"['b81ef226f3fe1789b1e8b2acac839d17', 'a9810da82917af2d9aefd1278f1dcfa0', '25e8ea4e93396b6fa0d3dd708e76c1bd', 'ba78997921bbcdc1373bb41e913ab953', '42fdf880ba16b47b59251dd489d4441a']"
+order_payments_dataset,payment_sequential,int64,False,0,0.0,29,0.03,103857,0.79,"[1, 1, 1, 1, 1]"
+order_payments_dataset,payment_type,str,False,0,0.0,5,0.0,103881,5.83,"['credit_card', 'credit_card', 'credit_card', 'credit_card', 'credit_card']"
+order_payments_dataset,payment_installments,int64,False,0,0.0,24,0.02,103862,0.79,"[8, 1, 1, 8, 2]"
+order_payments_dataset,payment_value,float64,False,0,0.0,29077,27.99,74809,0.79,"[99.33, 24.39, 65.71, 107.78, 128.45]"
