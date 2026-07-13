@@ -1,0 +1,3 @@
+column_name,count,unique_values,mode,mode_frequency,avg_length,min_length,max_length,top_10_values
+geolocation_city,1000163,8011,sao paulo,135800,10.47,2,38,"{'sao paulo': 135800, 'rio de janeiro': 62151, 'belo horizonte': 27805, 'são paulo': 24918, 'curitiba': 16593, 'porto alegre': 13521, 'salvador': 11865, 'guarulhos': 11340, 'brasilia': 10470, 'sao bernardo do campo': 8112}"
+geolocation_state,1000163,27,SP,404268,2.0,2,2,"{'SP': 404268, 'MG': 126336, 'RJ': 121169, 'RS': 61851, 'PR': 57859, 'SC': 38328, 'BA': 36045, 'GO': 20139, 'ES': 16748, 'PE': 16432}"

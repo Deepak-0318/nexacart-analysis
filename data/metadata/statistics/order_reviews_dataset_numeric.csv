@@ -1,0 +1,2 @@
+column_name,count,min,max,mean,median,std,variance,q1,q3,iqr,skewness,kurtosis,zero_count,negative_count
+review_score,99224,1,5,4.0864,5.0,1.3476,1.816,4.0,5.0,1.0,-1.3644,0.5077,0,0

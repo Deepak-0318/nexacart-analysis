@@ -1,0 +1,4 @@
+column_name,count,unique_values,mode,mode_frequency,avg_length,min_length,max_length,top_10_values
+seller_id,3095,3095,0015a82c2db000af6aaaf3ae2ecb0532,1,32.0,32,32,"{'3442f8959a84dea7ee197c632cb2df15': 1, 'd1b65fc7debc3361ea86b5f14c68d2e2': 1, 'ce3ad9de960102d0677a81f5d0bb7b2d': 1, 'c0f3eea2e14555b6faeea3dd58c1b1c3': 1, '51a04a8a6bdcb23deccc82b0b80742cf': 1, 'c240c4061717ac1806ae6ee72be3533b': 1, 'e49c26c3edfa46d227d5121a6b6e4d37': 1, '1b938a7ec6ac5061a66a3766e0e75f90': 1, '768a86e36ad6aae3d03ee3c6433d61df': 1, 'ccc4bbb5f32a6ab2b7066a4130f114e3': 1}"
+seller_city,3095,611,sao paulo,694,10.17,2,40,"{'sao paulo': 694, 'curitiba': 127, 'rio de janeiro': 96, 'belo horizonte': 68, 'ribeirao preto': 52, 'guarulhos': 50, 'ibitinga': 49, 'santo andre': 45, 'campinas': 41, 'maringa': 40}"
+seller_state,3095,23,SP,1849,2.0,2,2,"{'SP': 1849, 'PR': 349, 'MG': 244, 'SC': 190, 'RJ': 171, 'RS': 129, 'GO': 40, 'DF': 30, 'ES': 23, 'BA': 19}"

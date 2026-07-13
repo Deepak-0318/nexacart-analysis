@@ -1,0 +1,92 @@
+[
+    {
+        "parent_dataset": "order_reviews_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "orders_dataset",
+        "child_column": "order_id",
+        "overlap": 0.992,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "sellers_dataset",
+        "parent_column": "seller_id",
+        "child_dataset": "order_items_dataset",
+        "child_column": "seller_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "orders_dataset",
+        "parent_column": "customer_id",
+        "child_dataset": "customers_dataset",
+        "child_column": "customer_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "products_dataset",
+        "parent_column": "product_id",
+        "child_dataset": "order_items_dataset",
+        "child_column": "product_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "orders_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "order_items_dataset",
+        "child_column": "order_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "orders_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "order_payments_dataset",
+        "child_column": "order_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "customers_dataset",
+        "parent_column": "customer_id",
+        "child_dataset": "orders_dataset",
+        "child_column": "customer_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "orders_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "order_reviews_dataset",
+        "child_column": "order_id",
+        "overlap": 1.0,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "order_reviews_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "order_payments_dataset",
+        "child_column": "order_id",
+        "overlap": 0.992,
+        "score": 100,
+        "confidence": "Very High"
+    },
+    {
+        "parent_dataset": "order_reviews_dataset",
+        "parent_column": "order_id",
+        "child_dataset": "order_items_dataset",
+        "child_column": "order_id",
+        "overlap": 0.992,
+        "score": 100,
+        "confidence": "Very High"
+    }
+]

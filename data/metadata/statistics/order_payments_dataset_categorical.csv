@@ -1,0 +1,3 @@
+column_name,count,unique_values,mode,mode_frequency,avg_length,min_length,max_length,top_10_values
+order_id,103886,99440,fa65dad1b0e818e3ccc5cb0e39231352,29,32.0,32,32,"{'fa65dad1b0e818e3ccc5cb0e39231352': 29, 'ccf804e764ed5650cd8759557269dc13': 26, '285c2e15bebd4ac83635ccc563dc71f4': 22, '895ab968e7bb0d5659d16cd74cd1650c': 21, 'ee9ca989fc93ba09a6eddc250ce01742': 19, 'fedcd9f7ccdc8cba3a18defedd1a5547': 19, '21577126c19bf11a0b91592e5844ba78': 15, '4bfcba9e084f46c8e3cb49b0fa6e6159': 15, '3c58bffb70dcf45f12bdf66a3c215905': 14, '4689b1816de42507a7d63a4617383c59': 14}"
+payment_type,103886,5,credit_card,76795,9.81,6,11,"{'credit_card': 76795, 'boleto': 19784, 'voucher': 5775, 'debit_card': 1529, 'not_defined': 3}"

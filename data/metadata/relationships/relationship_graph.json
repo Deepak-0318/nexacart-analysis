@@ -1,0 +1,231 @@
+{
+    "relationships": [
+        {
+            "parent_dataset": "customers_dataset",
+            "parent_column": "customer_id",
+            "child_dataset": "orders_dataset",
+            "child_column": "customer_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "order_reviews_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "order_items_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "order_reviews_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "order_payments_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "order_reviews_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "orders_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "orders_dataset",
+            "parent_column": "customer_id",
+            "child_dataset": "customers_dataset",
+            "child_column": "customer_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "orders_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "order_items_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "orders_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "order_payments_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "orders_dataset",
+            "parent_column": "order_id",
+            "child_dataset": "order_reviews_dataset",
+            "child_column": "order_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "products_dataset",
+            "parent_column": "product_id",
+            "child_dataset": "order_items_dataset",
+            "child_column": "product_id",
+            "score": 100,
+            "confidence": "Very High"
+        },
+        {
+            "parent_dataset": "sellers_dataset",
+            "parent_column": "seller_id",
+            "child_dataset": "order_items_dataset",
+            "child_column": "seller_id",
+            "score": 100,
+            "confidence": "Very High"
+        }
+    ],
+    "adjacency_list": {
+        "customers_dataset": [
+            {
+                "child_dataset": "orders_dataset",
+                "child_column": "customer_id",
+                "parent_column": "customer_id",
+                "score": 100,
+                "confidence": "Very High"
+            }
+        ],
+        "order_reviews_dataset": [
+            {
+                "child_dataset": "order_items_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            },
+            {
+                "child_dataset": "order_payments_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            },
+            {
+                "child_dataset": "orders_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            }
+        ],
+        "orders_dataset": [
+            {
+                "child_dataset": "customers_dataset",
+                "child_column": "customer_id",
+                "parent_column": "customer_id",
+                "score": 100,
+                "confidence": "Very High"
+            },
+            {
+                "child_dataset": "order_items_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            },
+            {
+                "child_dataset": "order_payments_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            },
+            {
+                "child_dataset": "order_reviews_dataset",
+                "child_column": "order_id",
+                "parent_column": "order_id",
+                "score": 100,
+                "confidence": "Very High"
+            }
+        ],
+        "products_dataset": [
+            {
+                "child_dataset": "order_items_dataset",
+                "child_column": "product_id",
+                "parent_column": "product_id",
+                "score": 100,
+                "confidence": "Very High"
+            }
+        ],
+        "sellers_dataset": [
+            {
+                "child_dataset": "order_items_dataset",
+                "child_column": "seller_id",
+                "parent_column": "seller_id",
+                "score": 100,
+                "confidence": "Very High"
+            }
+        ]
+    },
+    "relationship_matrix": {
+        "customers_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 0,
+            "order_payments_dataset": 0,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 1,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "order_items_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 0,
+            "order_payments_dataset": 0,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 0,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "order_payments_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 0,
+            "order_payments_dataset": 0,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 0,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "order_reviews_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 1,
+            "order_payments_dataset": 1,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 1,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "orders_dataset": {
+            "customers_dataset": 1,
+            "order_items_dataset": 1,
+            "order_payments_dataset": 1,
+            "order_reviews_dataset": 1,
+            "orders_dataset": 0,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "products_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 1,
+            "order_payments_dataset": 0,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 0,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        },
+        "sellers_dataset": {
+            "customers_dataset": 0,
+            "order_items_dataset": 1,
+            "order_payments_dataset": 0,
+            "order_reviews_dataset": 0,
+            "orders_dataset": 0,
+            "products_dataset": 0,
+            "sellers_dataset": 0
+        }
+    }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "Dataset": "sellers_dataset",
+        "Dataset Memory (MB)": 0.588,
+        "Column Memory (MB)": 0.2392,
+        "Largest Columns": "seller_id (0.24 MB), seller_city (0.17 MB), seller_state (0.15 MB), seller_zip_code_prefix (0.02 MB)",
+        "Object Memory (MB)": 0.5644,
+        "Numeric Memory (MB)": 0.0237,
+        "Memory %": 100.0,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "product_category_name_translati",
+        "Dataset Memory (MB)": 0.0091,
+        "Column Memory (MB)": 0.0047,
+        "Largest Columns": "Column1 (0.0 MB), Column2 (0.0 MB)",
+        "Object Memory (MB)": 0.0091,
+        "Numeric Memory (MB)": 0.0001,
+        "Memory %": 1.52,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "products_dataset",
+        "Dataset Memory (MB)": 6.2966,
+        "Column Memory (MB)": 2.5455,
+        "Largest Columns": "product_id (2.55 MB), product_category_name (1.99 MB), product_name_lenght (0.25 MB), product_description_lenght (0.25 MB), product_photos_qty (0.25 MB)",
+        "Object Memory (MB)": 4.5368,
+        "Numeric Memory (MB)": 1.7599,
+        "Memory %": 91.34,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "order_reviews_dataset",
+        "Dataset Memory (MB)": 17.6008,
+        "Column Memory (MB)": 7.6649,
+        "Largest Columns": "review_id (7.66 MB), order_id (7.66 MB), review_score (0.76 MB), review_creation_date (0.76 MB), review_answer_timestamp (0.76 MB)",
+        "Object Memory (MB)": 15.3298,
+        "Numeric Memory (MB)": 0.7571,
+        "Memory %": 71.86,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "orders_dataset",
+        "Dataset Memory (MB)": 24.6555,
+        "Column Memory (MB)": 7.6817,
+        "Largest Columns": "order_id (7.68 MB), customer_id (7.68 MB), order_status (5.5 MB), order_purchase_timestamp (0.76 MB), order_approved_at (0.76 MB)",
+        "Object Memory (MB)": 20.8621,
+        "Numeric Memory (MB)": 0.0001,
+        "Memory %": 50.16,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "order_payments_dataset",
+        "Dataset Memory (MB)": 16.2294,
+        "Column Memory (MB)": 8.0251,
+        "Largest Columns": "order_id (8.03 MB), payment_type (5.83 MB), payment_sequential (0.79 MB), payment_installments (0.79 MB), payment_value (0.79 MB)",
+        "Object Memory (MB)": 13.8517,
+        "Numeric Memory (MB)": 2.3779,
+        "Memory %": 24.82,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "order_items_dataset",
+        "Dataset Memory (MB)": 29.5438,
+        "Column Memory (MB)": 8.7021,
+        "Largest Columns": "order_id (8.7 MB), product_id (8.7 MB), seller_id (8.7 MB), order_item_id (0.86 MB), shipping_limit_date (0.86 MB)",
+        "Object Memory (MB)": 26.106,
+        "Numeric Memory (MB)": 2.5785,
+        "Memory %": 31.12,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    },
+    {
+        "Dataset": "geolocation_dataset",
+        "Dataset Memory (MB)": 129.3806,
+        "Column Memory (MB)": 57.8434,
+        "Largest Columns": "geolocation_city (57.84 MB), geolocation_state (48.65 MB), geolocation_zip_code_prefix (7.63 MB), geolocation_lat (7.63 MB), geolocation_lng (7.63 MB)",
+        "Object Memory (MB)": 106.4887,
+        "Numeric Memory (MB)": 22.892,
+        "Memory %": 57.68,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding; Consider parquet or optimized dtypes for large tables"
+    },
+    {
+        "Dataset": "customers_dataset",
+        "Dataset Memory (MB)": 26.5864,
+        "Column Memory (MB)": 7.6817,
+        "Largest Columns": "customer_id (7.68 MB), customer_unique_id (7.68 MB), customer_city (5.63 MB), customer_state (4.84 MB), customer_zip_code_prefix (0.76 MB)",
+        "Object Memory (MB)": 25.8277,
+        "Numeric Memory (MB)": 0.7588,
+        "Memory %": 10.6,
+        "Memory Optimization Suggestions": "Reduce object-dtype memory with categorical encoding"
+    }
+]

@@ -1,0 +1,402 @@
+[
+    {
+        "dataset_name": "customers_dataset",
+        "column_name": "customer_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "customers_dataset",
+        "column_name": "customer_unique_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 96.64
+    },
+    {
+        "dataset_name": "customers_dataset",
+        "column_name": "customer_zip_code_prefix",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 15.08
+    },
+    {
+        "dataset_name": "customers_dataset",
+        "column_name": "customer_city",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 4.14
+    },
+    {
+        "dataset_name": "customers_dataset",
+        "column_name": "customer_state",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.03
+    },
+    {
+        "dataset_name": "geolocation_dataset",
+        "column_name": "geolocation_zip_code_prefix",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 1.9
+    },
+    {
+        "dataset_name": "geolocation_dataset",
+        "column_name": "geolocation_lat",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 71.73
+    },
+    {
+        "dataset_name": "geolocation_dataset",
+        "column_name": "geolocation_lng",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 71.75
+    },
+    {
+        "dataset_name": "geolocation_dataset",
+        "column_name": "geolocation_city",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.8
+    },
+    {
+        "dataset_name": "geolocation_dataset",
+        "column_name": "geolocation_state",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.0
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "order_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 87.59
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "order_item_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.02
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "product_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 29.25
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "seller_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 2.75
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "shipping_limit_date",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 82.84
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "price",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 5.3
+    },
+    {
+        "dataset_name": "order_items_dataset",
+        "column_name": "freight_value",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 6.21
+    },
+    {
+        "dataset_name": "order_payments_dataset",
+        "column_name": "order_id",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 95.72
+    },
+    {
+        "dataset_name": "order_payments_dataset",
+        "column_name": "payment_sequential",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.03
+    },
+    {
+        "dataset_name": "order_payments_dataset",
+        "column_name": "payment_type",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.0
+    },
+    {
+        "dataset_name": "order_payments_dataset",
+        "column_name": "payment_installments",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.02
+    },
+    {
+        "dataset_name": "order_payments_dataset",
+        "column_name": "payment_value",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 27.99
+    },
+    {
+        "dataset_name": "order_reviews_dataset",
+        "column_name": "review_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 99.18
+    },
+    {
+        "dataset_name": "order_reviews_dataset",
+        "column_name": "order_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 99.44
+    },
+    {
+        "dataset_name": "order_reviews_dataset",
+        "column_name": "review_answer_timestamp",
+        "score": 80,
+        "confidence": "High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 99.02
+    },
+    {
+        "dataset_name": "order_reviews_dataset",
+        "column_name": "review_score",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.01
+    },
+    {
+        "dataset_name": "order_reviews_dataset",
+        "column_name": "review_creation_date",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.64
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "customer_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_purchase_timestamp",
+        "score": 80,
+        "confidence": "High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 99.43
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_status",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.01
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_estimated_delivery_date",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.46
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_approved_at",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 0.16,
+        "unique_percentage": 91.24
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_delivered_carrier_date",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 1.79,
+        "unique_percentage": 81.47
+    },
+    {
+        "dataset_name": "orders_dataset",
+        "column_name": "order_delivered_customer_date",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 2.98,
+        "unique_percentage": 96.2
+    },
+    {
+        "dataset_name": "product_category_name_translati",
+        "column_name": "Column1",
+        "score": 80,
+        "confidence": "High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "product_category_name_translati",
+        "column_name": "Column2",
+        "score": 80,
+        "confidence": "High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_width_cm",
+        "score": 20,
+        "confidence": "Low",
+        "missing_percentage": 0.01,
+        "unique_percentage": 0.29
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_category_name",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 1.85,
+        "unique_percentage": 0.22
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_name_lenght",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 1.85,
+        "unique_percentage": 0.2
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_description_lenght",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 1.85,
+        "unique_percentage": 8.98
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_photos_qty",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 1.85,
+        "unique_percentage": 0.06
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_weight_g",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 0.01,
+        "unique_percentage": 6.69
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_length_cm",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 0.01,
+        "unique_percentage": 0.3
+    },
+    {
+        "dataset_name": "products_dataset",
+        "column_name": "product_height_cm",
+        "score": 0,
+        "confidence": "Low",
+        "missing_percentage": 0.01,
+        "unique_percentage": 0.31
+    },
+    {
+        "dataset_name": "sellers_dataset",
+        "column_name": "seller_id",
+        "score": 100,
+        "confidence": "Very High",
+        "missing_percentage": 0.0,
+        "unique_percentage": 100.0
+    },
+    {
+        "dataset_name": "sellers_dataset",
+        "column_name": "seller_zip_code_prefix",
+        "score": 50,
+        "confidence": "Medium",
+        "missing_percentage": 0.0,
+        "unique_percentage": 72.57
+    },
+    {
+        "dataset_name": "sellers_dataset",
+        "column_name": "seller_city",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 19.74
+    },
+    {
+        "dataset_name": "sellers_dataset",
+        "column_name": "seller_state",
+        "score": 30,
+        "confidence": "Low",
+        "missing_percentage": 0.0,
+        "unique_percentage": 0.74
+    }
+]

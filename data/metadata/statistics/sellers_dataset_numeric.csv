@@ -1,0 +1,2 @@
+column_name,count,min,max,mean,median,std,variance,q1,q3,iqr,skewness,kurtosis,zero_count,negative_count
+seller_zip_code_prefix,3095,1001,99730,32291.0595,14940.0,32713.4538,1070170061.4554,7093.5,64552.5,57459.0,0.9161,-0.8583,0,0

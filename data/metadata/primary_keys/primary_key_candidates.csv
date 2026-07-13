@@ -1,0 +1,51 @@
+dataset_name,column_name,score,confidence,missing_percentage,unique_percentage
+customers_dataset,customer_id,100,Very High,0.0,100.0
+customers_dataset,customer_unique_id,50,Medium,0.0,96.64
+customers_dataset,customer_zip_code_prefix,50,Medium,0.0,15.08
+customers_dataset,customer_city,30,Low,0.0,4.14
+customers_dataset,customer_state,30,Low,0.0,0.03
+geolocation_dataset,geolocation_zip_code_prefix,50,Medium,0.0,1.9
+geolocation_dataset,geolocation_lat,30,Low,0.0,71.73
+geolocation_dataset,geolocation_lng,30,Low,0.0,71.75
+geolocation_dataset,geolocation_city,30,Low,0.0,0.8
+geolocation_dataset,geolocation_state,30,Low,0.0,0.0
+order_items_dataset,order_id,50,Medium,0.0,87.59
+order_items_dataset,order_item_id,50,Medium,0.0,0.02
+order_items_dataset,product_id,50,Medium,0.0,29.25
+order_items_dataset,seller_id,50,Medium,0.0,2.75
+order_items_dataset,shipping_limit_date,30,Low,0.0,82.84
+order_items_dataset,price,30,Low,0.0,5.3
+order_items_dataset,freight_value,30,Low,0.0,6.21
+order_payments_dataset,order_id,50,Medium,0.0,95.72
+order_payments_dataset,payment_sequential,30,Low,0.0,0.03
+order_payments_dataset,payment_type,30,Low,0.0,0.0
+order_payments_dataset,payment_installments,30,Low,0.0,0.02
+order_payments_dataset,payment_value,30,Low,0.0,27.99
+order_reviews_dataset,review_id,100,Very High,0.0,99.18
+order_reviews_dataset,order_id,100,Very High,0.0,99.44
+order_reviews_dataset,review_answer_timestamp,80,High,0.0,99.02
+order_reviews_dataset,review_score,30,Low,0.0,0.01
+order_reviews_dataset,review_creation_date,30,Low,0.0,0.64
+orders_dataset,order_id,100,Very High,0.0,100.0
+orders_dataset,customer_id,100,Very High,0.0,100.0
+orders_dataset,order_purchase_timestamp,80,High,0.0,99.43
+orders_dataset,order_status,30,Low,0.0,0.01
+orders_dataset,order_estimated_delivery_date,30,Low,0.0,0.46
+orders_dataset,order_approved_at,0,Low,0.16,91.24
+orders_dataset,order_delivered_carrier_date,0,Low,1.79,81.47
+orders_dataset,order_delivered_customer_date,0,Low,2.98,96.2
+product_category_name_translati,Column1,80,High,0.0,100.0
+product_category_name_translati,Column2,80,High,0.0,100.0
+products_dataset,product_id,100,Very High,0.0,100.0
+products_dataset,product_width_cm,20,Low,0.01,0.29
+products_dataset,product_category_name,0,Low,1.85,0.22
+products_dataset,product_name_lenght,0,Low,1.85,0.2
+products_dataset,product_description_lenght,0,Low,1.85,8.98
+products_dataset,product_photos_qty,0,Low,1.85,0.06
+products_dataset,product_weight_g,0,Low,0.01,6.69
+products_dataset,product_length_cm,0,Low,0.01,0.3
+products_dataset,product_height_cm,0,Low,0.01,0.31
+sellers_dataset,seller_id,100,Very High,0.0,100.0
+sellers_dataset,seller_zip_code_prefix,50,Medium,0.0,72.57
+sellers_dataset,seller_city,30,Low,0.0,19.74
+sellers_dataset,seller_state,30,Low,0.0,0.74

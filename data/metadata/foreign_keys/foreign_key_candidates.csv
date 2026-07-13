@@ -1,0 +1,11 @@
+parent_dataset,parent_column,child_dataset,child_column,overlap,score,confidence
+order_reviews_dataset,order_id,orders_dataset,order_id,0.992,100,Very High
+sellers_dataset,seller_id,order_items_dataset,seller_id,1.0,100,Very High
+orders_dataset,customer_id,customers_dataset,customer_id,1.0,100,Very High
+products_dataset,product_id,order_items_dataset,product_id,1.0,100,Very High
+orders_dataset,order_id,order_items_dataset,order_id,1.0,100,Very High
+orders_dataset,order_id,order_payments_dataset,order_id,1.0,100,Very High
+customers_dataset,customer_id,orders_dataset,customer_id,1.0,100,Very High
+orders_dataset,order_id,order_reviews_dataset,order_id,1.0,100,Very High
+order_reviews_dataset,order_id,order_payments_dataset,order_id,0.992,100,Very High
+order_reviews_dataset,order_id,order_items_dataset,order_id,0.992,100,Very High

@@ -1,0 +1,4 @@
+column_name,count,min,max,mean,median,std,variance,q1,q3,iqr,skewness,kurtosis,zero_count,negative_count
+payment_sequential,103886,1.0,29.0,1.0927,1.0,0.7066,0.4993,1.0,1.0,0.0,16.1801,370.5938,0,0
+payment_installments,103886,0.0,24.0,2.8533,1.0,2.6871,7.2202,1.0,4.0,3.0,1.6551,2.55,2,0
+payment_value,103886,0.0,13664.08,154.1004,100.0,217.4941,47303.6678,56.79,171.8375,115.0475,9.254,241.8284,9,0

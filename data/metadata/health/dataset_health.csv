@@ -1,0 +1,10 @@
+Dataset,Health Score,Missing Score,Duplicate Score,Schema Score,Relationship Score,Overall Grade,Recommendation
+customers_dataset,85.79,100.0,43.18,100.0,100.0,B,Dataset is in good health
+geolocation_dataset,72.31,100.0,29.24,100.0,60.0,C,Monitor for drift and missingness
+order_items_dataset,82.64,100.0,30.56,100.0,100.0,B,Monitor for drift and missingness
+order_payments_dataset,81.19,100.0,24.75,100.0,100.0,B,Monitor for drift and missingness
+order_reviews_dataset,89.91,100.0,59.66,100.0,100.0,B,Dataset is in good health
+orders_dataset,92.54,99.38,71.1,99.69,100.0,A,Dataset is in good health
+product_category_name_translati,90.0,100.0,100.0,100.0,60.0,A,Dataset is in good health
+products_dataset,77.94,99.17,13.01,99.59,100.0,C,Monitor for drift and missingness
+sellers_dataset,87.07,100.0,48.26,100.0,100.0,B,Dataset is in good health
